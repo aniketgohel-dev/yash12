@@ -312,6 +312,7 @@ body {
     margin-bottom: 0%;
   }
   .right{
+    z-index:-55;
     min-height:50vh;
     position:relative;
   }
