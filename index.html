@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="">
+    <title>Document</title>
+</head>
+<body>
+<button onclick="navmenu()" class="navbtn" id="navbtn"><span class="barr"></span><span class="barr"></span><span class="barr"></span></button>
+    <nav class="navbar" id="navbar">
+        <div class="head1" id="navbar-content">
+            <button class="toplink closebtn" onclick="closenav()">Close</button>
+             <a href="#home" class="toplink page-scroll">Home</a>
+             <a href="#about" class="toplink page-scroll">About</a>
+             <a href="#portfolio"  class="toplink page-scroll" style="border-bottom: none">Portfolio</a>
+             <!-- <a href="#contact"  class="toplink page-scroll">Contact</a> -->
+     </div>
+   </nav> 
+   <div id="home" class="container">
+       <div class="left">
+           <div class="left-content" style="text-align: left; margin-left: 20%;">
+           <p style="font-size: 20px; font-family: Regular; color: #707070;"> Hello,</p>
+           <p style="font-size: 40px; font-family: Medium; margin-top: 0%;">I'm Yash Dhrangdhariya</p>
+           <p style="font-size: 20px; color: #505050; font-family: Regular; margin-top: 0%;"><img src="./Apps/android.svg" class="icon">  Android devloper & <img src="./Apps/paint.svg" class="icon"> designer</p>
+           <p style="font-size: 12px; font-family: Regular; color: #606060; margin-top: 0%;">Contact Me...<br> <br> </p>
+            <div class="contact">
+                <a href="mailto:aniketgohelp@gmail.com?subject=contact via portfolio"><img src="./Apps/linkedin.svg" class="icon" style=" margin-top: 0%;"></a>                      
+                <img src="./Apps/linkedin.svg" class="icon" style=" margin-top: 0%;margin-left:10px;">
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="image1">
+        <img src="./Profile.jpg" alt="Avatar" class="avatar">
+    </div>
+</div>
+</div>
+
+<!-- About Page -->
+<div class="coant" id="about">
+    <p class="heading">About</p>
+    <div class="heading2">Experience</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="languages">
+            Java<br>
+            <div class="bar" style="max-width: 60%;" align="center">
+                <p style="color: black;">
+                    85%
+                </p></div>
+        </div>
+        <div class="languages">
+            Android<br>
+            <div class="bar" style="max-width: 58%;" >
+                <p style="color: black;">
+                    65%
+                </p></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="languages">
+            Dart<br>
+            <div class="bar" style="max-width: 56%;" align="center">
+                <p style="color: black;">
+                    60%
+                </p></div>
+        </div>
+        <div class="languages">
+            Flutter<br>
+            <div class="bar" style="max-width: 60%;">
+            <p style="color: black;">
+                80%
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="languages">
+            XD<br>
+            <div class="bar" style="max-width: 64%;" align="center">
+                <p style="color: black;">
+                    90%
+                </p></div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Page -->
+<div class="coant1" id="portfolio">
+    <p class="heading" style="font-family: Regular;">Portfolio</p>
+    <div class="heading2" style="font-family: Regular;">Personal Apps Projects</div>
+    <div class="row2" style="">
+        <div style="min-width: 50%">
+            <img src="./Apps/app_one.png" class="image">
+            <p class="project-app-head">The Note App</p>
+
+        </div>
+        <div style="min-width: 50%">
+            <img src="./Apps/app_two.png" class="image">
+            <p class="project-app-head">The Weather App</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Page -->
+<!-- <div class="coant" id="contact">
+    <p class="heading">Contact</p>
+    <div style="margin-left: 0%; margin-top: 6%;">
+    <div class="row1" style="" >
+        <div style="min-width: 30%">
+            <p class="app-head">Name: </p>
+        </div>
+        <div style="min-width: 30%">
+            <input type="text" name="name" class="forminput" placeholder="Enter Your Name">
+        </div>
+    </div>
+    <div class="row1" style="">
+        <div style="min-width: 30%">
+            <p class="app-head">Email: </p>
+
+        </div>
+        <div style="min-width: 30%">
+            <input type="email" name="name" class="forminput" placeholder="Enter Your Email">
+        </div>
+    </div>
+    <div class="row1" style="">
+        <div style="min-width: 30%">
+            <p class="app-head">Description: </p>
+
+        </div>
+        <div style="min-width: 30%">
+            <textarea class="forminput" rows="5" placeholder="Enter Your Message"></textarea>
+        </div>
+    </div>
+        <div class="row1" style="margin-top: 6%;">
+            <div style="min-width: 30%">
+                <input type="submit" class="formbutton">
+
+            </div>
+            <div style="min-width: 30%">
+                <input type="reset" class="formbutton">
+            </div>
+        </div>
+
+
+    </div>
+</div> -->
+
+
+
+</div>
+
+<script src="./js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/scrolling-nav.js"></script>
+<script src="./js/main.js"></script>
+
+   
+</body>
+</html>
