@@ -275,6 +275,7 @@ body {
     background-color: transparent;
     border: 0px;
     color: black;
+    z-index:5;
   }
   .container{
     flex-direction: column-reverse;
@@ -312,7 +313,7 @@ body {
     margin-bottom: 0%;
   }
   .right{
-    z-index:-55;
+    
     min-height:50vh;
     position:relative;
   }
